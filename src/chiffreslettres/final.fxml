@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chiffreslettres.FinalController">
+   <children>
+      <ImageView fitHeight="764.0" fitWidth="1278.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="valider_bt" layoutX="766.0" layoutY="602.0" mnemonicParsing="false" onAction="#Valider" prefHeight="21.0" prefWidth="159.0" text="Valider">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt" layoutX="326.0" layoutY="602.0" prefHeight="39.0" prefWidth="440.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="165.0" fitWidth="183.0" layoutX="531.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@timer.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="user1" alignment="CENTER" disable="true" editable="false" layoutX="65.0" layoutY="404.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="544.0" layoutY="73.0" text="LE FINAL">
+         <font>
+            <Font name="Arial Nova Cond Light" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="motSuivant" layoutX="511.0" layoutY="491.0" mnemonicParsing="false" onAction="#Suivant" prefHeight="54.0" prefWidth="204.0" text="Mot Suivant">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="123.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@if_hat_12_2875621.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="txtVal" layoutX="73.0" layoutY="454.0" text="Valeur Actuelle: 0 £">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtMot" layoutX="73.0" layoutY="481.0" text="Mot(s) Trouvé(s) : 0 / 10">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="ssm" layoutX="334.0" layoutY="403.0" mnemonicParsing="false" onAction="#Sesame" prefHeight="44.0" prefWidth="101.0" text="Sésame " visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="595.0" layoutY="391.0" text="00:30" textFill="#d37808">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="c6" alignment="CENTER" editable="false" layoutX="613.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c7" alignment="CENTER" editable="false" layoutX="730.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c8" alignment="CENTER" editable="false" layoutX="847.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c9" alignment="CENTER" editable="false" layoutX="964.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c10" alignment="CENTER" editable="false" layoutX="1082.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c5" alignment="CENTER" editable="false" layoutX="495.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c4" alignment="CENTER" editable="false" layoutX="378.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c3" alignment="CENTER" editable="false" layoutX="261.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c2" alignment="CENTER" editable="false" layoutX="144.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="c1" alignment="CENTER" editable="false" layoutX="27.0" layoutY="136.0" prefHeight="107.0" prefWidth="115.0" text="A">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </TextField>
+      <Button fx:id="end" layoutX="325.0" layoutY="648.0" mnemonicParsing="false" onAction="#Terminer" prefHeight="39.0" prefWidth="600.0" text="Terminer" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="txtLong" layoutX="331.0" layoutY="575.0" text="Mot de Longueur 0:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children> 
+</AnchorPane>
